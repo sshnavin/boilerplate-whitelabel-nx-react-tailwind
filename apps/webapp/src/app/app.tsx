@@ -1,15 +1,15 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-
-import NxWelcome from './nx-welcome';
+import './app.module.css';
 
 export function App() {
   return (
-    <>
-      <NxWelcome title="webapp" />
+      <div className='h-screen bg-yellow-500 flex flex-col justify-center items-center'>
+        <h1 className='font-bold text-5xl'>This works!</h1>
+        <pre className="text-sm">font-bold text-5xl</pre>
 
-      <div />
-    </>
+        <p>Delete this component and start playing!</p>
+        <div className="absolute top-0 left-0"><p className="text-sm">bg-yellow-500 flex flex-col justify-center items-center</p></div>
+      </div>
   );
 }
 
