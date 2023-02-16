@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@with-nx-react-tailwind/tailwind-config": [
+        "libs/tailwind-config/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
