@@ -1,2 +1,2 @@
-# boilerplate-whitelabel-nx-react-tailwind
-A boilterplate to demonstrate white labled solution in nx and react using tailwind
+# boilerplate-with-nx-react-tailwind
+An empty project boilerplate with working implementation of Tailwind in a React App in Nx.dev workspace
